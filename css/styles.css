@@ -1,0 +1,19 @@
+.frame{
+  position:relative;
+}
+.frame img{
+  width: 100%;
+  position:absolute;
+}
+.frame img#overlayLoop{
+  z-index: 9;
+}
+.frame img#locations{
+  z-index: 15;
+}
+.frame img#range{
+  z-index: 10;
+}
+.frame img#topo{
+  z-index: 5;
+}

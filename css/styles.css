@@ -1,8 +1,9 @@
 .frame{
   position:relative;
+  width: 512px;
+  height: 557px;
 }
 .frame img{
-  width: 100%;
   position:absolute;
 }
 .frame img#overlayLoop{
@@ -16,4 +17,16 @@
 }
 .frame img#topo{
   z-index: 5;
+}
+.frame img#legend{
+  z-index: 3;
+}
+.frame #timestamp {
+	position: absolute;
+	z-index: 100;
+	top: 86%;
+	left: 55%;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
 }
